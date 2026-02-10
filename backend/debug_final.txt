@@ -1,0 +1,117 @@
+[Debug] Starting debug for SKU 8995...
+[Debug] Fetching raw data...
+[Debug] Found 1 pendencias for SKU 8995
+[Debug] Sample Pendencia Raw: {
+  "idPendencia": "14482",
+  "idCliente": "43701",
+  "clienteG2": "56657",
+  "clienteRazao": "JOSÉ MORILO GOMES GURGEL JUNIOR",
+  "clienteFantasia": "JOSÉ MORILO GOMES GURGEL JUNIOR",
+  "idPedido": "166997",
+  "idPedidoG2": "166997",
+  "dataPedido": "2025-10-02",
+  "dataAcordoEntregaPedido": "2025-10-02",
+  "dataPendencia": "2026-01-27",
+  "quantidadePendencia": "6",
+  "quantidadeCompra": "0",
+  "quantidadePedidoCompra": "0",
+  "idProduto": "4719",
+  "codigo_sku": "8995",
+  "idProdutoG2": "8995",
+  "produto": "PERFIL EMBUTIR P/MOVEL ALUMINIO 24X8 LI12,4MM 2M PE-07 173",
+  "status": "1",
+  "fornecedorCodigoG2": "10299",
+  "fornecedorRazao": "TSL IMPORTADORA E DISTRIBUIDORA LTDA",
+  "idConsultor": "358",
+  "codigoConsultorG2": "33004",
+  "consultor": "MATHEUS MARTINS FLORIANO",
+  "idMarca": "33",
+  "marca": "BIOLUCCI",
+  "exportadoSeparacao": null,
+  "isImportadoERP": null,
+  "idComprador": "5",
+  "comprador": "ADRIEL VICTOR",
+  "precoUnitarioManual": null,
+  "statusDescricao": "Em Aberto",
+  "codigoFabricante": "173",
+  "precoCusto": "18.486",
+  "precoCompra": "18.000",
+  "precoVenda": "32.000",
+  "estoqueDisponivel": "0",
+  "curvaABC": "C",
+  "idEstoque": "6",
+  "idParceiro": null,
+  "parceiroFantasia": " - ",
+  "idCategoria": "85",
+  "categoria": "Perfil de Alumínio para Fita LED",
+  "idGrupoCategorias": "23",
+  "grupoCategorias": "Iluminação Linear",
+  "idTipoProdutos": "3",
+  "tipoProdutos": "Fita LED e Iluminação Linear",
+  "idSegmentoProdutos": "1",
+  "segmentoProdutos": "Iluminação"
+}
+[Debug] Found 2 pedidos for SKU 8995
+[Debug] Sample Pedido Raw: {
+  "idPedidoCompra": 1735,
+  "itemStatusNome": "Mercadoria Entregue",
+  "produto": "PERFIL EMBUTIR P/MOVEL ALUMINIO 24X8 LI12,4MM 2M PE-07 173",
+  "codigo_sku": 8995,
+  "fabricanteCodigo": "173",
+  "usuarioCriacaoLogin": "renato.campos@alediluminacao.com.br",
+  "usuarioAtualizacaoLogin": "lucas.gondim@alediluminacao.com.br",
+  "valorTotalItem": 432,
+  "id": 4495,
+  "id_pedido_compra": 1735,
+  "idProduto": 4719,
+  "precoVenda": 21.6,
+  "precoCompra": 21.6,
+  "precoUltimo": 0,
+  "precoMedio": 0,
+  "precoMenor": 0,
+  "quantidade": 20,
+  "quantidadeRecebida": 0,
+  "preco": 0,
+  "itemValorICMS": 0,
+  "itemValorIPI": 0,
+  "observacao": "",
+  "idItemStatus": 5,
+  "itemStatus": "Entregue",
+  "desconto": 0,
+  "isRessuprimento": 1,
+  "usuarioCriacao": 265,
+  "usuarioAlteracao": 258,
+  "dataCriacao": "2025-10-15T17:51:59.477",
+  "dataAlteracao": "2025-11-10T09:19:40.157",
+  "dataFaturamento": "2025-10-17T04:00:00",
+  "status": 1,
+  "dataPrevisao": "2025-11-01T10:51:33.060",
+  "statusPedidoCompra": 1,
+  "idFornecedor": 63,
+  "fornecedorCodigo": 10299,
+  "fornecedorRazao": "TSL IMPORTADORA E DISTRIBUIDORA LTDA",
+  "fornecedorDocumento": "10.527.016/0001-00",
+  "idFornecedorProduto": 63,
+  "fornecedorProdutoCodigo": 10299,
+  "fornecedorRazaoProduto": "TSL IMPORTADORA E DISTRIBUIDORA LTDA",
+  "fornecedorDocumentoProduto": "10.527.016/0001-00",
+  "decimalIPI": 0,
+  "valorIPITotalItem": 0,
+  "pedidoFornecedor": "202402940",
+  "wmsDisponivel": 0,
+  "estoqueDisponivel": 0,
+  "estoqueUnificado": 0,
+  "precoVendaSku": 32
+}
+[Debug] Calling SuprimentosFacade.getDashboard()...
+[SuprimentosFacade] Dashboard data ready: 574 records
+[Debug] Facade returned 1 items for SKU 8995
+[Debug] Enriched Item 1:
+   - Cliente: JOSÉ MORILO GOMES GURGEL JUNIOR (Razao: JOSÉ MORILO GOMES GURGEL JUNIOR, Fantasia: JOSÉ MORILO GOMES GURGEL JUNIOR)
+   - Saldo Pendente: 6
+   - Qtd Pendencia: 6
+   - Estoque: 0
+   - Pedidos Item Status: Entregue
+   - Pedidos Data Previsao: 2025-11-01T10:51:33.060
+   - Pedidos Length: 2
+   - Situacao Compra: COMPRAR

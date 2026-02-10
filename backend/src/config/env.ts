@@ -8,7 +8,7 @@ const envSchema = z.object({
     NODE_ENV: z.enum(['development', 'production', 'test']).default('development'),
     SYSLED_API_URL: z.string().url(),
     SYSLED_API_TOKEN: z.string(),
-    SYSLED_API_TIMEOUT: z.coerce.number().default(30000),
+    SYSLED_API_TIMEOUT: z.coerce.number().default(60000),
     ALLOWED_ORIGINS: z.string().default('http://localhost:5173'),
     CACHE_TTL: z.coerce.number().default(30),
     RATE_LIMIT_WINDOW_MS: z.coerce.number().default(60000),
